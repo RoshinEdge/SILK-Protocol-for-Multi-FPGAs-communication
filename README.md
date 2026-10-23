@@ -27,23 +27,7 @@ SILK uses high-speed GTX transceivers in RAW mode and Time-Division Multiplexing
 - **Simulation and Verification:** Testbench infrastructure supports functional verification and error-injection scenarios.
 
 ### Repository Structure
-
-```text
-SILK_Project/
-├── src/                  # RTL source files (SystemVerilog)
-│   ├── silk_pkg.sv       # Protocol constants and types
-│   ├── silk_tx.sv        # Transmitter FSM and frame builder
-│   ├── silk_rx.sv        # Receiver FSM, CRC checker, and unpacker
-│   ├── silk_link_fsm.sv  # Initialization and recovery FSM
-│   └── gtx_wrapper.sv    # Top-level controller connecting to GTX
-├── tb/                   # Simulation testbenches
-│   └── tb_silk_top.sv    # Main testbench with error injection
-├── constraints/          # XDC constraints
-│   └── pinout.xdc        # Pin assignments and timing constraints
-├── ip/                   # Vivado IP configuration files
-│   └── gtx_wizard.xci    # 7 Series Transceivers Wizard configuration
-├── scripts/              # TCL build and automation scripts
-└── SILK_Project.xpr      # Vivado project file
+update
 ```
 
 ### Protocol Architecture
@@ -138,23 +122,7 @@ SILK использует высокоскоростные трансиверы 
 - **Моделирование и верификация:** тестовая инфраструктура предназначена для функциональной проверки протокола и моделирования ошибок передачи.
 
 ### Структура репозитория
-
-```text
-SILK_Project/
-├── src/                  # Исходные RTL-файлы (SystemVerilog)
-│   ├── silk_pkg.sv       # Константы и типы протокола
-│   ├── silk_tx.sv        # Автомат передатчика и формирователь кадров
-│   ├── silk_rx.sv        # Автомат приёмника, проверка CRC и распаковка
-│   ├── silk_link_fsm.sv  # Автомат инициализации и восстановления канала
-│   └── gtx_wrapper.sv    # Верхнеуровневый модуль интерфейса с GTX
-├── tb/                   # Тестовые окружения для моделирования
-│   └── tb_silk_top.sv    # Основной тестбенч с инъекцией ошибок
-├── constraints/          # Файлы ограничений XDC
-│   └── pinout.xdc        # Назначения выводов и ограничения тактирования
-├── ip/                   # Файлы конфигурации IP Vivado
-│   └── gtx_wizard.xci    # Конфигурация 7 Series Transceivers Wizard
-├── scripts/              # TCL-скрипты сборки и автоматизации
-└── SILK_Project.xpr      # Файл проекта Vivado
+обновляется
 ```
 
 ### Архитектура протокола
