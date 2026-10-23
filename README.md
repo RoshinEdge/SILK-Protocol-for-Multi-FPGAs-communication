@@ -27,7 +27,9 @@ SILK uses high-speed GTX transceivers in RAW mode and Time-Division Multiplexing
 - **Simulation and Verification:** Testbench infrastructure supports functional verification and error-injection scenarios.
 
 ### Repository Structure
-update
+
+```text
+updating
 ```
 
 ### Protocol Architecture
@@ -122,6 +124,8 @@ SILK использует высокоскоростные трансиверы 
 - **Моделирование и верификация:** тестовая инфраструктура предназначена для функциональной проверки протокола и моделирования ошибок передачи.
 
 ### Структура репозитория
+
+```text
 обновляется
 ```
 
